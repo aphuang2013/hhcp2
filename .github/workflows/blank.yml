@@ -35,5 +35,5 @@ jobs:
           token: ${{ secrets.VAULT_TOKEN }}
           namespace: admin
           secrets: |
-            secret/secret1 key1 
+            secret/secret1/key1 
   
