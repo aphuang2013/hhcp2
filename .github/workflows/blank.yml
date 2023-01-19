@@ -27,7 +27,7 @@ jobs:
 
      # ...
       - name: Import Secrets
-        uses: hashicorp/vault-action@v3
+        uses: hashicorp/vault-action@v2
         with:
           url: https://vault-enterprise.mycompany.com:8200
           caCertificate: ${{ secrets.VAULT_CA_CERT }}
